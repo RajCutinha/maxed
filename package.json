@@ -1,0 +1,17 @@
+{
+  "name": "pagetrans",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.14.7"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.9.0"
+  },
+  "scripts": {
+    "build": "esbuild app.js --bundle --outfile=main.js"
+  }
+}
